@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -35,7 +34,6 @@
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -44,11 +42,11 @@
 <Attribute name="CREATOR_ID" id="645F16BB-1F14-02B3-3A75-76D71E46F0B2">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:24:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[creatorID === userID]]></commentInRDBMS>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -71,11 +69,11 @@
 <Attribute name="CREATION_DATE" id="D2E45E8E-80FA-047D-8B65-37A7B0438297">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:24:47 UTC</createdTime>
+<comment><![CDATA[Do we need this attribute?]]></comment>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
@@ -97,11 +95,12 @@
 <Attribute name="NFT_COUNT" id="832489B8-3175-B064-4F18-B0396C713E43">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:25:23 UTC</createdTime>
+<comment><![CDATA[Number of NFT's that are a part of this collection.]]></comment>
+<commentInRDBMS><![CDATA[Number of NFT's that are part of this collection.]]></commentInRDBMS>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -110,6 +109,7 @@
 <Attribute name="LAST_UPDATED" id="FB346C2C-B267-1898-CC3A-576ACA2CE23E">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:25:41 UTC</createdTime>
+<comment><![CDATA[we need this to update the last time an NFT is created and added to the collection]]></comment>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -148,5 +148,34 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="CREATOR_ID1" id="39AAD31D-A6CB-D287-BD57-D839F4EBB698">
+<createdBy>raksh</createdBy>
+<createdTime>2024-02-28 22:27:35 UTC</createdTime>
+<generatorID>EF1A9C82-145F-8467-733D-A0EA1DE09B4C</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<referedAttribute>9D99976D-4D75-687E-6C31-8B4B56C8925C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="357EFD3C-4D0F-F9CD-40C2-A4BC5E16DBA7" name="COLLECTION PK">
+<createdBy>raksh</createdBy>
+<createdTime>2024-02-28 21:41:01 UTC</createdTime>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7134D6C2-FCEF-7460-40A5-A50DEABEFE69</attributeRef>
+<attributeRef>39AAD31D-A6CB-D287-BD57-D839F4EBB698</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -30,11 +30,11 @@
 <Attribute name="BUYER_ID" id="7525FEE6-933F-A831-4B90-E400DFCBBDD5">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:14:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[buyerID === userID]]></commentInRDBMS>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -43,11 +43,11 @@
 <Attribute name="SELLER_ID" id="EBA0ECF1-7D9F-C9CD-F924-1A6C7633B7BD">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:14:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[sellerID === userID]]></commentInRDBMS>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -56,11 +56,11 @@
 <Attribute name="NFT_ID" id="AB39444D-A661-3566-C6F3-17B367CD0451">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:14:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[NFT that is sold]]></commentInRDBMS>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -73,46 +73,36 @@
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PRICE" id="0D94F9B5-CF12-921B-33FA-DADD72B20444">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:15:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[final price the NFT is sold for]]></commentInRDBMS>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT043</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TRANSACTION_TYPE" id="B6C5BCB9-B27C-D3D9-4C42-5964ACDBDB70">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:15:41 UTC</createdTime>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="STATUS" id="D5AD3B27-F96B-9FE2-E430-FF796A404C2E">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:16:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENUM values that contains:
+	COMPLETE
+	PENDING
+	CANCELLED
+	FAILED]]></commentInRDBMS>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -121,11 +111,11 @@
 <Attribute name="TRANSACTION_HASH" id="7418B844-467F-BE78-4B8C-81BEBF5D38B6">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:17:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[transcation hash to verify the transaction on the blockchain.]]></commentInRDBMS>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

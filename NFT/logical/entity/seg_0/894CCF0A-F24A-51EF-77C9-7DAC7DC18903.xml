@@ -34,7 +34,6 @@
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -75,7 +74,6 @@
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -90,7 +88,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="FILE_URL" id="C502C544-EB8A-7E7C-8AC5-F90A91CF2649">
@@ -118,22 +116,10 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="EDITION" id="1CC15501-D02F-0C0F-EC11-962C650B8B42">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:10:23 UTC</createdTime>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="PRICE" id="16675EE6-CB09-C733-78A3-A80EADDD2321">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:11:07 UTC</createdTime>
+<comment><![CDATA[attribute to denote the price of the NFT in dollars.]]></comment>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -141,11 +127,18 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT043</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="STATUS" id="B59865E1-A800-50C8-4545-B722C85946E9">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:12:00 UTC</createdTime>
+<comment><![CDATA[This should be an ENUM containing values
+	AVAILABLE
+	SOLD
+	UNDER-REVIEW
+	INACTIVE]]></comment>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -159,6 +152,7 @@
 <Attribute name="COLLECTION_ID" id="D28D4B44-6212-8B8A-222F-60B5794CB4F2">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:12:35 UTC</createdTime>
+<comment><![CDATA[Do we need this attribute?]]></comment>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -178,6 +172,20 @@
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
 <referedAttribute>5DAB1E67-7B66-D53E-7F71-F92B254ECC24</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CREATOR_ID1" id="4554C5B9-218F-DE9C-3E20-C61D0DFC695B">
+<createdBy>raksh</createdBy>
+<createdTime>2024-02-28 22:27:35 UTC</createdTime>
+<generatorID>94B9092F-3DB8-9765-418F-5155491EB1FB</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<referedAttribute>9D99976D-4D75-687E-6C31-8B4B56C8925C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
