@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="99078165-02E9-B77A-39F4-3C72B09F89E9">
+<createdBy>raksh</createdBy>
+<createdTime>2024-02-28 17:53:07 UTC</createdTime>
+<ownerDesignName>NFT</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

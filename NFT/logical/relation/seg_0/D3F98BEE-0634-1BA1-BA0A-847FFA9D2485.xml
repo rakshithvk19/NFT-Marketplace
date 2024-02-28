@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="NFT_TRANSFER_TRANSACTION" directorySegmentName="seg_0" id="D3F98BEE-0634-1BA1-BA0A-847FFA9D2485">
+<createdBy>raksh</createdBy>
+<createdTime>2024-02-28 19:07:59 UTC</createdTime>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<sourcePk>A6D8BE15-AE0F-9E2D-A4D7-77A339BD79C3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>894CCF0A-F24A-51EF-77C9-7DAC7DC18903</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>DA3C9282-059F-A2F7-1B23-6633270CD889</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

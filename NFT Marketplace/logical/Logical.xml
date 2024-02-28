@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="60B5762A-72D3-7476-A204-7399FEC14FBF" mainViewID="BED8C72A-6093-7BB2-FAD7-0DA7E64251A8">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 17:53:07 UTC</createdTime>
-<ownerDesignName>NFT Marketplace</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>

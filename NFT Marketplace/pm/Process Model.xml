@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="CED36141-1D86-A6EE-2FED-C30B550460BE">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 17:53:07 UTC</createdTime>
-<ownerDesignName>NFT Marketplace</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</ProcessModel>
