@@ -27,6 +27,35 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="USER_ID" id="EB3CD2B6-2AAD-C5A1-B508-A77004CA965C">
+<createdBy>raksh</createdBy>
+<createdTime>2024-02-28 18:39:27 UTC</createdTime>
+<comment><![CDATA[The current user who owns the NFT]]></comment>
+<generatorID>25CA288E-6E87-1852-7F30-FF2CE9BD6B2C</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<referedAttribute>5DAB1E67-7B66-D53E-7F71-F92B254ECC24</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COLLECTION_ID" id="D28D4B44-6212-8B8A-222F-60B5794CB4F2">
+<createdBy>raksh</createdBy>
+<createdTime>2024-02-28 18:12:35 UTC</createdTime>
+<comment><![CDATA[To know what collection an NFT is a part of]]></comment>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="TITLE" id="46A273DB-7CF2-F8CD-BABC-CBE20C21CA18">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:05:57 UTC</createdTime>
@@ -94,7 +123,7 @@
 <Attribute name="PRICE" id="16675EE6-CB09-C733-78A3-A80EADDD2321">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:11:07 UTC</createdTime>
-<comment><![CDATA[attribute to denote the price of the NFT in dollars.]]></comment>
+<comment><![CDATA[Attribute to denote the price of the NFT in dollars.]]></comment>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -130,43 +159,29 @@
 <dataTypeSize>20 CHAR</dataTypeSize>
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COLLECTION_ID" id="D28D4B44-6212-8B8A-222F-60B5794CB4F2">
+<Attribute name="COLLECTION_ID1" id="83532D0A-A9A8-707B-2A88-F24DE248E0DE">
 <createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:12:35 UTC</createdTime>
-<comment><![CDATA[Do we need this attribute?]]></comment>
+<createdTime>2024-02-29 22:18:37 UTC</createdTime>
+<generatorID>26F11A9C-27F0-E443-DEB3-46A56FA513F8</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7134D6C2-FCEF-7460-40A5-A50DEABEFE69</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="USER_ID" id="EB3CD2B6-2AAD-C5A1-B508-A77004CA965C">
+<Attribute name="CREATOR_ID" id="E709A58D-6E8B-C698-E2C6-70AD17B7D00C">
 <createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:39:27 UTC</createdTime>
-<generatorID>25CA288E-6E87-1852-7F30-FF2CE9BD6B2C</generatorID>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<referedAttribute>5DAB1E67-7B66-D53E-7F71-F92B254ECC24</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CREATOR_ID" id="4554C5B9-218F-DE9C-3E20-C61D0DFC695B">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 22:27:35 UTC</createdTime>
+<createdTime>2024-02-29 22:38:30 UTC</createdTime>
 <generatorID>94B9092F-3DB8-9765-418F-5155491EB1FB</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<referedAttribute>9D99976D-4D75-687E-6C31-8B4B56C8925C</referedAttribute>
+<referedAttribute>8D5604AC-4D83-572A-D169-7D6E979F2145</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

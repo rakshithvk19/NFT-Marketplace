@@ -93,34 +93,6 @@
 <logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NFT_ID" id="3EF9764D-8CFE-C1A0-0175-CFEEFE3FF986">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 19:09:25 UTC</createdTime>
-<generatorID>26C3F6A4-55AD-784F-266E-19B8A27D01C7</generatorID>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<referedAttribute>0D47507F-37BC-C570-9FA2-2878169D952C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CREATOR_ID" id="39AAD31D-A6CB-D287-BD57-D839F4EBB698">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 22:27:35 UTC</createdTime>
-<generatorID>EF1A9C82-145F-8467-733D-A0EA1DE09B4C</generatorID>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<referedAttribute>9D99976D-4D75-687E-6C31-8B4B56C8925C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="357EFD3C-4D0F-F9CD-40C2-A4BC5E16DBA7" name="COLLECTION PK">
@@ -133,7 +105,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>7134D6C2-FCEF-7460-40A5-A50DEABEFE69</attributeRef>
-<attributeRef>39AAD31D-A6CB-D287-BD57-D839F4EBB698</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

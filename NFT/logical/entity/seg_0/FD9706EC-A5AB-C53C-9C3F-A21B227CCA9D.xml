@@ -30,14 +30,16 @@ how much is he selling it for.]]></comment>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SELLER_ID" id="5DD2003C-AC02-33E3-7E50-2A20CAC2B8FD">
+<Attribute name="USER_ID" id="46286C7D-6BA9-618F-B8C4-3614F08EC651">
 <createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:19:14 UTC</createdTime>
-<comment><![CDATA[sellerID === userID]]></comment>
+<createdTime>2024-02-28 18:46:39 UTC</createdTime>
+<comment><![CDATA[The person who is selling the NFT]]></comment>
+<generatorID>ADD9E32A-7267-AB9E-C427-A1ED5EEAB991</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
+<referedAttribute>5DAB1E67-7B66-D53E-7F71-F92B254ECC24</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -85,14 +87,14 @@ how much is he selling it for.]]></comment>
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="STATUS" id="8A60B613-98F9-07A0-0882-6B1ADAD0697E">
+<Attribute name="LISTING_STATUS" id="8A60B613-98F9-07A0-0882-6B1ADAD0697E">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:20:08 UTC</createdTime>
 <comment><![CDATA[should be an ENUM having values:
-	ACTIVE
-	SOLD
-	EXPIRED
-	CANCELLED]]></comment>
+	ACTIVE -- NFT up for sale
+	SOLD -- NFT is sold
+	EXPIRED -- NFT is not sold and listing is past its expiry date.
+	]]></comment>
 <commentInRDBMS><![CDATA[ENUM containing the values of 
 	ACTIVE
 	SOLD
@@ -117,20 +119,6 @@ how much is he selling it for.]]></comment>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="USER_ID" id="46286C7D-6BA9-618F-B8C4-3614F08EC651">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:46:39 UTC</createdTime>
-<generatorID>ADD9E32A-7267-AB9E-C427-A1ED5EEAB991</generatorID>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<referedAttribute>5DAB1E67-7B66-D53E-7F71-F92B254ECC24</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

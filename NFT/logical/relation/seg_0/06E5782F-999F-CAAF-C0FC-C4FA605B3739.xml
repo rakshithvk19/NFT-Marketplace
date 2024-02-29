@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="USER_PLACES_BID" directorySegmentName="seg_0" id="06E5782F-999F-CAAF-C0FC-C4FA605B3739">
+<createdBy>raksh</createdBy>
+<createdTime>2024-02-29 21:51:22 UTC</createdTime>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<sourcePk>CC819E7A-13F8-2DB7-EF47-F1F802121AF5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>35166B60-5E46-B678-FA42-EAEC0301CE1D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>63D20CA9-EFB7-DD87-1FAA-EC2381C563A9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -27,20 +27,21 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="BIDDER_ID" id="5F8ACCA2-C5E5-066E-45F4-44B3CBE9CC32">
+<Attribute name="USER_ID" id="8F291861-56EE-114B-CD08-7DC30BE24F48">
 <createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:27:17 UTC</createdTime>
-<comment><![CDATA[BidderId === UserId]]></comment>
+<createdTime>2024-02-29 21:51:22 UTC</createdTime>
+<generatorID>06E5782F-999F-CAAF-C0FC-C4FA605B3739</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
+<referedAttribute>5DAB1E67-7B66-D53E-7F71-F92B254ECC24</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="BID" id="54090ACF-2B8A-CDCF-8E17-546A6602D201">
+<Attribute name="BID_VALUE" id="54090ACF-2B8A-CDCF-8E17-546A6602D201">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:27:38 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
@@ -66,14 +67,13 @@
 <logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="STATUS" id="6A2A4575-9C20-DF92-7928-24AC9C013F3B">
+<Attribute name="BID_STATUS" id="6A2A4575-9C20-DF92-7928-24AC9C013F3B">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:28:39 UTC</createdTime>
 <comment><![CDATA[Attribute that captures the status of the bid ENUM
-	PENDING
-	ACCEPTED
-	REJECTED
-	EXPIRED]]></comment>
+	ACCEPTED -- the bid is accepted and NFT is sold
+	REJECTED -- the bid is outbid by another bid
+	]]></comment>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -82,19 +82,6 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COUNTER_OFFER" id="230E3493-0617-8159-80FF-A5781717673F">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:31:00 UTC</createdTime>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="TRANSACTION_ID" id="E3FC3102-E1A3-E905-6D4C-099C2957CABC">
 <createdBy>raksh</createdBy>

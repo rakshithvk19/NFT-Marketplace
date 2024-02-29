@@ -15,14 +15,15 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="CREATOR_ID" id="9D99976D-4D75-687E-6C31-8B4B56C8925C">
+<Attribute name="CREATOR_ID" id="8D5604AC-4D83-572A-D169-7D6E979F2145">
 <createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:32:02 UTC</createdTime>
-<comment><![CDATA[CreatorID === UserID]]></comment>
+<createdTime>2024-02-29 22:36:52 UTC</createdTime>
+<generatorID>527C1C8E-9FB2-974D-D5DF-448D31CE08F4</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
+<referedAttribute>5DAB1E67-7B66-D53E-7F71-F92B254ECC24</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -104,7 +105,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9D99976D-4D75-687E-6C31-8B4B56C8925C</attributeRef>
+<attributeRef>8D5604AC-4D83-572A-D169-7D6E979F2145</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
