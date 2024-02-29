@@ -54,31 +54,6 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="USER_ID" id="027691B8-D0CC-3A77-0855-B0A7AF8251AC">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:06:51 UTC</createdTime>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CREATOR_ID" id="777074A3-B0C8-099E-BFEF-4368BE28CDC6">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:08:23 UTC</createdTime>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="MINT_DATE" id="61A18B7E-5AE1-0AB1-9A70-FAC4FB3EB22F">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:08:46 UTC</createdTime>
@@ -103,7 +78,7 @@
 <logicalDatatype>LOGDT052</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="BLOCKCHAIN_HASH" id="19773B69-8D3E-EF88-6149-658F2B23F869">
+<Attribute name="TOKEN_ID" id="19773B69-8D3E-EF88-6149-658F2B23F869">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:09:20 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
@@ -127,9 +102,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT043</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
+<dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="STATUS" id="B59865E1-A800-50C8-4545-B722C85946E9">
 <createdBy>raksh</createdBy>
@@ -139,6 +114,12 @@
 	SOLD
 	UNDER-REVIEW
 	INACTIVE]]></comment>
+<commentInRDBMS><![CDATA[It in an ENUM having the values
+	AVAILABLE
+	SOLD
+	UNDER- REVIEW
+	INACTIVE
+	]]></commentInRDBMS>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -163,7 +144,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="USER_ID1" id="EB3CD2B6-2AAD-C5A1-B508-A77004CA965C">
+<Attribute name="USER_ID" id="EB3CD2B6-2AAD-C5A1-B508-A77004CA965C">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:39:27 UTC</createdTime>
 <generatorID>25CA288E-6E87-1852-7F30-FF2CE9BD6B2C</generatorID>
@@ -177,7 +158,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CREATOR_ID1" id="4554C5B9-218F-DE9C-3E20-C61D0DFC695B">
+<Attribute name="CREATOR_ID" id="4554C5B9-218F-DE9C-3E20-C61D0DFC695B">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 22:27:35 UTC</createdTime>
 <generatorID>94B9092F-3DB8-9765-418F-5155491EB1FB</generatorID>

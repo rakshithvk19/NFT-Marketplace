@@ -53,19 +53,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NFT_ID" id="AB39444D-A661-3566-C6F3-17B367CD0451">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:14:53 UTC</createdTime>
-<commentInRDBMS><![CDATA[NFT that is sold]]></commentInRDBMS>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="TRANSACTION_DATE" id="50DD8B3A-A29B-FB93-1EB4-40DC2FC07969">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:15:08 UTC</createdTime>
@@ -89,7 +76,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT043</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="STATUS" id="D5AD3B27-F96B-9FE2-E430-FF796A404C2E">
 <createdBy>raksh</createdBy>
@@ -135,7 +124,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NFT_ID1" id="0C836467-4DCC-F8E3-7737-2358EBEF9619">
+<Attribute name="NFT_ID" id="0C836467-4DCC-F8E3-7737-2358EBEF9619">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 19:07:59 UTC</createdTime>
 <generatorID>D3F98BEE-0634-1BA1-BA0A-847FFA9D2485</generatorID>

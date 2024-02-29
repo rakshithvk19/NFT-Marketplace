@@ -18,6 +18,7 @@
 <Attribute name="CREATOR_ID" id="9D99976D-4D75-687E-6C31-8B4B56C8925C">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:32:02 UTC</createdTime>
+<comment><![CDATA[CreatorID === UserID]]></comment>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -34,6 +35,7 @@
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT052</logicalDatatype>
@@ -50,18 +52,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT052</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CREATION_DATE" id="66328717-5E12-D854-B9E8-67BD09AC0F3E">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:34:15 UTC</createdTime>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="VERIFICATION_STATUS" id="55A082CF-EEBC-62E7-19C9-4683D2EF4004">
@@ -99,9 +89,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT043</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
+<dataTypePrecision>18</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
