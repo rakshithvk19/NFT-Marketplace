@@ -56,6 +56,7 @@
 <Attribute name="ROLE" id="0B34D33A-0C2C-4476-C6EE-4F5F174CF169">
 <createdBy>raksh</createdBy>
 <createdTime>2024-03-01 21:01:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is to denote if its a buying or a selling transaction.]]></commentInRDBMS>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -86,8 +87,9 @@
 <createdBy>raksh</createdBy>
 <createdTime>2024-03-01 21:46:10 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -122,6 +122,10 @@ Giving 60 charaters for the string to be on the safer side.]]></comment>
 <Attribute name="ROLE" id="E373D997-77E4-3418-769E-231501DBE544">
 <createdBy>raksh</createdBy>
 <createdTime>2024-03-01 20:47:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is an ENUM having value
+	BUYER
+	SELLER
+	BOTH]]></commentInRDBMS>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -129,7 +133,7 @@ Giving 60 charaters for the string to be on the safer side.]]></comment>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>577AFFC0-9768-71A9-686E-EB0C182B5DAF</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="USER_TRANSACTION_ID" id="FB62CFDC-F247-A467-EDFA-72CF06930478">

@@ -58,6 +58,8 @@
 <Attribute name="STATUS" id="A427CB37-407D-8A47-A86E-ED5B650FB1BD">
 <createdBy>raksh</createdBy>
 <createdTime>2024-03-01 21:05:26 UTC</createdTime>
+<comment><![CDATA[Variable to denote the status of the transaction
+	]]></comment>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -129,8 +131,9 @@
 <createdBy>raksh</createdBy>
 <createdTime>2024-03-01 21:46:17 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
