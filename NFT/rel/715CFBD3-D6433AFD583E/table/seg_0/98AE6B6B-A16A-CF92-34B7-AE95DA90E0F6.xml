@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98AE6B6B-A16A-CF92-34B7-AE95DA90E0F6" name="USER_TRANSACTION">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<generatorID>A2BE5E66-BF7F-3E25-6DF0-0ABA14560B43</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USER_TRANSACTION_ID" id="EB416CF2-B2F7-1811-5632-1C1C84EFB6F8">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<generatorID>CF08F853-7AF5-3AA9-7B53-B396DFC43085</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_ID" id="CB10DB2B-5906-4B5F-B596-7914463F21B1">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<generatorID>BA51B937-C839-391A-119C-D18FE80BF4A5</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANSACTION_ID" id="2D2D9DF4-F9B7-0F9B-1003-4E52A8F5F714">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<generatorID>5529CA59-155D-2177-EF8C-206CAAF958A6</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROLE" id="32019944-FBDB-E3E6-DD01-F5FBA4E370E8">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<generatorID>0B34D33A-0C2C-4476-C6EE-4F5F174CF169</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANSACTION_TRANSCATION_ID" id="36FF83AF-A1C7-A05C-55F0-23805D6518F5">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<generatorID>8C681C07-8E02-CA8E-5090-AC292F250209</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BCA8F26-B072-969F-8E30-56B7A4F42DB1" referredColumn="B35A027E-6460-15B6-2A7A-F4C368D4B934"/>
+</associations>
+</Column>
+<Column name="TRANSACTION_USER_USER_ID" id="46211E51-C29F-6129-2B1A-FF645881A812">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<generatorID>AACDA689-7A67-1BAE-D8DE-E3D5FC5205E4</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BCA8F26-B072-969F-8E30-56B7A4F42DB1" referredColumn="5356B850-444E-57FB-BB4D-A6413B8E388A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="939FECB6-2298-4BA7-BCE5-0F72A717C0C6" name="USER_TRANSACTION_PK">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<generatorID>2AAD12DB-1490-9165-F3CB-DE5E8D73C463</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB416CF2-B2F7-1811-5632-1C1C84EFB6F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A88E8ACC-6919-8E5A-9834-DD7FA52A1CDA" name="USER_TRANSACTION_TRANSACTION_FK">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<generatorID>F9FF245D-1A19-0C86-C886-693B6673D791</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36FF83AF-A1C7-A05C-55F0-23805D6518F5"/>
+<colUsage columnID="46211E51-C29F-6129-2B1A-FF645881A812"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

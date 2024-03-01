@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BE984AE9-E66B-7492-4DE9-5F345A284641" containerWithKeyObject="27B8B548-DB76-3613-D75A-9B0D56AC1118" localFKIndex="7DE45403-EA62-DE6A-A83F-17946DC9BD22" name="BIDDER_USER_FK">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<generatorID>8D79C717-FA09-09DC-8031-0DBE293302EF</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<referredTableLongName>USER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>206B6CDA-4F07-F3BF-6C6C-6E17721D1133</referredTableID>
+<keyObject>63801029-2447-586A-DE36-2E480DBB1EDD</keyObject>
+<referredKeyID>63801029-2447-586A-DE36-2E480DBB1EDD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>USER_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

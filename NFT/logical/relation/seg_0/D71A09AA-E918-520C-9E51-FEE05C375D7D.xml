@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="USER_CREATES_LISTING" directorySegmentName="seg_0" id="ADD9E32A-7267-AB9E-C427-A1ED5EEAB991">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BID_HAS_BIDDER" directorySegmentName="seg_0" id="D71A09AA-E918-520C-9E51-FEE05C375D7D">
 <createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:46:39 UTC</createdTime>
+<createdTime>2024-03-01 21:50:47 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<sourcePk>CC819E7A-13F8-2DB7-EF47-F1F802121AF5</sourcePk>
+<sourcePk>5B58418B-5E22-599A-80AF-A8EE68F8B912</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>35166B60-5E46-B678-FA42-EAEC0301CE1D</sourceEntity>
+<sourceEntity>EC0A8F28-DE91-9259-64FB-59BBBE253974</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>FD9706EC-A5AB-C53C-9C3F-A21B227CCA9D</targetEntity>
+<targetEntity>ACB1F544-BD45-8E22-90DD-73D924EE966A</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DFEA29E7-7C16-40E1-F60B-2B35109CAA0A" containerWithKeyObject="55869C52-F9ED-D262-261E-E8DE8611A40F" localFKIndex="3450A5B5-B9B8-1BEC-9FD1-EC59A4EAF35D" name="TRANSACTION_NFT_FK">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<generatorID>B95A364D-F406-72D5-DD27-35B92DAEDDAA</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<referredTableLongName>NFT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>03C8B12B-A719-54F0-E077-C11D2F821671</referredTableID>
+<keyObject>73DAFE1F-8285-AFBE-D831-CC6DE5E7BD3E</keyObject>
+<referredKeyID>73DAFE1F-8285-AFBE-D831-CC6DE5E7BD3E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NFT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

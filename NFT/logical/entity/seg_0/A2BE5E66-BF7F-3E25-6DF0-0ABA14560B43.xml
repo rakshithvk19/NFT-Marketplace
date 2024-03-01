@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7252F79-4555-1D33-E642-47CC786B7F5A" name="COLLECTION">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2BE5E66-BF7F-3E25-6DF0-0ABA14560B43" name="USER_TRANSACTION">
 <createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:22:40 UTC</createdTime>
+<createdTime>2024-03-01 20:55:08 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COLLECTION_ID" id="7134D6C2-FCEF-7460-40A5-A50DEABEFE69">
+<Attribute name="USER_TRANSACTION_ID" id="CF08F853-7AF5-3AA9-7B53-B396DFC43085">
 <createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:22:54 UTC</createdTime>
+<createdTime>2024-03-01 20:56:07 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -27,84 +27,71 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COLLECTION_NAME" id="FA4A8D5C-C214-0A58-6B98-F2730B9A1BAA">
+<Attribute name="USER_ID" id="BA51B937-C839-391A-119C-D18FE80BF4A5">
 <createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:23:48 UTC</createdTime>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DESCRIPTION" id="3906DB27-401E-6410-AD33-61CE327A676A">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:24:20 UTC</createdTime>
+<createdTime>2024-03-01 21:00:41 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="THUMBNAIL_URL" id="4D693504-5FD6-F6C9-1D13-4D044A8A1098">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:25:08 UTC</createdTime>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT052</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NFT_COUNT" id="832489B8-3175-B064-4F18-B0396C713E43">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:25:23 UTC</createdTime>
-<comment><![CDATA[Number of NFT's that are a part of this collection.]]></comment>
-<commentInRDBMS><![CDATA[Number of NFT's that are part of this collection.]]></commentInRDBMS>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LAST_UPDATED" id="FB346C2C-B267-1898-CC3A-576ACA2CE23E">
+<Attribute name="TRANSACTION_ID" id="5529CA59-155D-2177-EF8C-206CAAF958A6">
 <createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:25:41 UTC</createdTime>
-<comment><![CDATA[we need this to update the last time an NFT is created and added to the collection]]></comment>
+<createdTime>2024-03-01 21:01:07 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ROLE" id="0B34D33A-0C2C-4476-C6EE-4F5F174CF169">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-01 21:01:31 UTC</createdTime>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TRANSCATION_ID" id="8C681C07-8E02-CA8E-5090-AC292F250209">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-01 21:46:19 UTC</createdTime>
+<generatorID>F9FF245D-1A19-0C86-C886-693B6673D791</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<referedAttribute>6BD11A96-EB44-1A3C-6EBC-588040373F81</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="357EFD3C-4D0F-F9CD-40C2-A4BC5E16DBA7" name="COLLECTION PK">
+<identifier id="2AAD12DB-1490-9165-F3CB-DE5E8D73C463" name="USER_TRANSACTION PK">
 <createdBy>raksh</createdBy>
-<createdTime>2024-02-28 21:41:01 UTC</createdTime>
+<createdTime>2024-03-01 21:46:10 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7134D6C2-FCEF-7460-40A5-A50DEABEFE69</attributeRef>
+<attributeRef>CF08F853-7AF5-3AA9-7B53-B396DFC43085</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="NFT_CONTAINS_BIDS" directorySegmentName="seg_0" id="5EF3DAB9-0B37-94FB-C5B5-5E6F9891060C">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BID_ON_NFT" directorySegmentName="seg_0" id="B8F088C3-BDFF-52FE-E694-4D0727164EB4">
 <createdBy>raksh</createdBy>
-<createdTime>2024-02-28 19:10:55 UTC</createdTime>
+<createdTime>2024-03-01 21:10:55 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -13,7 +13,7 @@
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>894CCF0A-F24A-51EF-77C9-7DAC7DC18903</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>63D20CA9-EFB7-DD87-1FAA-EC2381C563A9</targetEntity>
+<targetEntity>EC0A8F28-DE91-9259-64FB-59BBBE253974</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

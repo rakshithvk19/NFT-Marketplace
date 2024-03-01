@@ -1,10 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD9706EC-A5AB-C53C-9C3F-A21B227CCA9D" name="LISTING">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AEB604C9-8476-A474-CF64-A829E9E95ECF" name="TRANSACTION">
 <createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:18:19 UTC</createdTime>
-<comment><![CDATA[Listing is a table that contains information about NFT's that are up for sale.
-It contains the NFT that is up for sale + who currently owns the NFT and is selling it
-how much is he selling it for.]]></comment>
+<createdTime>2024-03-01 20:54:56 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -18,9 +15,9 @@ how much is he selling it for.]]></comment>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="LISTING_ID" id="F6CC8F1B-6D3F-4296-5CE1-260B9B9A0E83">
+<Attribute name="TRANSCATION_ID" id="6BD11A96-EB44-1A3C-6EBC-588040373F81">
 <createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:18:29 UTC</createdTime>
+<createdTime>2024-03-01 21:03:15 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -30,76 +27,9 @@ how much is he selling it for.]]></comment>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="USER_ID" id="46286C7D-6BA9-618F-B8C4-3614F08EC651">
+<Attribute name="TRANSACTION_DATE" id="35A1B534-1811-474A-1E14-4A30FB5C4A49">
 <createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:46:39 UTC</createdTime>
-<comment><![CDATA[The person who is selling the NFT]]></comment>
-<generatorID>ADD9E32A-7267-AB9E-C427-A1ED5EEAB991</generatorID>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<referedAttribute>5DAB1E67-7B66-D53E-7F71-F92B254ECC24</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="LISTING_PRICE" id="61ADA3BD-55CC-0287-B7B1-F63F45F37CD4">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:19:36 UTC</createdTime>
-<comment><![CDATA[The current bid for this NFT.]]></comment>
-<commentInRDBMS><![CDATA[The current bid price of the NFT]]></commentInRDBMS>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT043</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,6,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="LISTING_DATE" id="73BB59FE-A785-06EB-FAFA-081AB8644D38">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:19:47 UTC</createdTime>
-<comment><![CDATA[Date when the NFT is up for sale]]></comment>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="EXPIRY_DATE" id="ABE0E3C9-E9F1-24C1-FC99-C53A58547598">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:21:16 UTC</createdTime>
-<comment><![CDATA[Date when the NFT sale ends]]></comment>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="LISTING_STATUS" id="8A60B613-98F9-07A0-0882-6B1ADAD0697E">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:20:08 UTC</createdTime>
-<comment><![CDATA[should be an ENUM having values:
-	ACTIVE -- NFT up for sale
-	SOLD -- NFT is sold
-	EXPIRED -- NFT is not sold and listing is past its expiry date.
-	]]></comment>
-<commentInRDBMS><![CDATA[ENUM containing the values of 
-	ACTIVE
-	SOLD
-	EXPIRED
-	CANCELLED]]></commentInRDBMS>
+<createdTime>2024-03-01 21:04:12 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -107,27 +37,40 @@ how much is he selling it for.]]></comment>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="STARTING_BID" id="9188D27C-6C6C-ED10-66E0-0B7A7DF21A99">
+<Attribute name="TRANSACTION_PRICE" id="DA9B82BF-5D51-1019-C755-B2BAAD30758D">
 <createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:22:03 UTC</createdTime>
-<comment><![CDATA[The initial bid for this NFT.]]></comment>
-<commentInRDBMS><![CDATA[initial bid set by the seller of the NFT]]></commentInRDBMS>
+<createdTime>2024-03-01 21:04:38 UTC</createdTime>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATUS" id="A427CB37-407D-8A47-A86E-ED5B650FB1BD">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-01 21:05:26 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NFT_ID" id="93AD0D41-B5C3-4C4C-3A92-FACB9EF1F643">
+<Attribute name="NFT_ID" id="6A99AE03-65E7-BBF8-36E6-4A8EA668E38D">
 <createdBy>raksh</createdBy>
-<createdTime>2024-02-28 19:08:56 UTC</createdTime>
-<generatorID>D28D0C78-671B-8E51-2943-D1DE7D86AF3A</generatorID>
+<createdTime>2024-03-01 21:15:29 UTC</createdTime>
+<generatorID>B95A364D-F406-72D5-DD27-35B92DAEDDAA</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -138,18 +81,60 @@ how much is he selling it for.]]></comment>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="BID_ID" id="C0F2C17E-E145-0715-4051-D04565343844">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-01 21:51:32 UTC</createdTime>
+<generatorID>98B1AB15-48D2-C015-57EE-847D847B32DC</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<referedAttribute>6F8F18F8-43A3-1C1E-5D1F-9B0D27E7486B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USER_ID" id="89D75AD3-EA10-32FB-17EA-362B093A6153">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-01 21:55:36 UTC</createdTime>
+<generatorID>E766C40A-A1AD-7345-E357-52A4D6526FB2</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<referedAttribute>5DAB1E67-7B66-D53E-7F71-F92B254ECC24</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TRANSACTION_HASH" id="35185635-0D76-39A8-E288-628434F9F118">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-01 22:04:08 UTC</createdTime>
+<comment><![CDATA[Attribute used to verify the authenticity of the transaction on the blockchain]]></comment>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0EC8F98D-9A33-C23E-9870-974DE89F2A09" name="LISTING PK">
+<identifier id="7B6B940C-A166-198A-6ADF-4A5CDA39EBDD" name="TRANSACTION PK">
 <createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:18:46 UTC</createdTime>
+<createdTime>2024-03-01 21:46:17 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>F6CC8F1B-6D3F-4296-5CE1-260B9B9A0E83</attributeRef>
+<attributeRef>6BD11A96-EB44-1A3C-6EBC-588040373F81</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

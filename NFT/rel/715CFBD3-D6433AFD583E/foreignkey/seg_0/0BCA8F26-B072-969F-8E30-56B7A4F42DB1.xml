@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0BCA8F26-B072-969F-8E30-56B7A4F42DB1" containerWithKeyObject="98AE6B6B-A16A-CF92-34B7-AE95DA90E0F6" localFKIndex="A88E8ACC-6919-8E5A-9834-DD7FA52A1CDA" name="USER_TRANSACTION_TRANSACTION_FK">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<generatorID>F9FF245D-1A19-0C86-C886-693B6673D791</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<referredTableLongName>TRANSACTION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>55869C52-F9ED-D262-261E-E8DE8611A40F</referredTableID>
+<keyObject>72EEC93D-1D13-3A62-3EC8-34FD267DF3EE</keyObject>
+<referredKeyID>72EEC93D-1D13-3A62-3EC8-34FD267DF3EE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TRANSCATION_ID,USER_USER_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
