@@ -69,34 +69,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NFT_ID" id="6A99AE03-65E7-BBF8-36E6-4A8EA668E38D">
-<createdBy>raksh</createdBy>
-<createdTime>2024-03-01 21:15:29 UTC</createdTime>
-<generatorID>B95A364D-F406-72D5-DD27-35B92DAEDDAA</generatorID>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<referedAttribute>0D47507F-37BC-C570-9FA2-2878169D952C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="BID_ID" id="C0F2C17E-E145-0715-4051-D04565343844">
-<createdBy>raksh</createdBy>
-<createdTime>2024-03-01 21:51:32 UTC</createdTime>
-<generatorID>98B1AB15-48D2-C015-57EE-847D847B32DC</generatorID>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<referedAttribute>6F8F18F8-43A3-1C1E-5D1F-9B0D27E7486B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="USER_ID" id="89D75AD3-EA10-32FB-17EA-362B093A6153">
 <createdBy>raksh</createdBy>
 <createdTime>2024-03-01 21:55:36 UTC</createdTime>
@@ -124,6 +96,34 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>60 CHAR</dataTypeSize>
 <ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LISTING_ID" id="1F33573A-DF5B-E4D8-D408-EDC7415191F8">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-06 19:51:18 UTC</createdTime>
+<generatorID>F4399057-5C88-4236-09E0-25CEC5F1D3BD</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<referedAttribute>7F654934-BC0F-CB5C-DC51-68B6A89DA03A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REQUEST_ID" id="F36A125D-12CB-CF9E-4BED-24DABD42A1BF">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-06 21:00:54 UTC</createdTime>
+<generatorID>D1E5CBF2-FC4E-DEBC-401C-6208595A86F4</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<referedAttribute>BF1BAD83-A2FD-F499-2441-211338628A72</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

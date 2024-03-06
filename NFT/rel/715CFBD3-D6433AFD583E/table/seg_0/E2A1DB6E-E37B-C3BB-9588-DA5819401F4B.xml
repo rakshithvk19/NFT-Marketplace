@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="206B6CDA-4F07-F3BF-6C6C-6E17721D1133" name="USER">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2A1DB6E-E37B-C3BB-9588-DA5819401F4B" name="USER">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>35166B60-5E46-B678-FA42-EAEC0301CE1D</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="USER_ID" id="2A1AEEDD-F876-CA20-FDBA-31B8FFA96539">
+<Column name="USER_ID" id="5781EA47-3ED9-475A-CE49-2279820012F1">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>5DAB1E67-7B66-D53E-7F71-F92B254ECC24</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="USER_NAME" id="D951824D-ACBF-3F70-C9CE-9B70806D7211">
+<Column name="USER_NAME" id="43491D49-E506-2A4B-F823-3484B7C9BCB8">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>6F6B33DB-2768-8BDA-AB1C-68B4117D3903</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,9 +31,9 @@
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="EMAIL" id="0BC60931-12C0-DD15-F9AC-3E4E97781CB2">
+<Column name="EMAIL" id="95B39074-D007-869D-A107-B4007F779B83">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>B9BD76D0-9B31-455C-134C-0C03A85BBD2E</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -43,9 +43,9 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PASSWORD" id="B2B7DB01-E8D6-68CB-3F16-E472AD5282C7">
+<Column name="PASSWORD" id="46564A62-64D1-E3C9-70FB-46A3480798BB">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>CA60879F-DED9-979C-0D3C-480DB759D531</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -55,9 +55,9 @@
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="WALLET_ADDRESS" id="2F5C1EE0-B300-3D50-8223-078DD5B5A4E1">
+<Column name="WALLET_ADDRESS" id="D0335831-2E64-28A5-2F12-688E9749091F">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <comment><![CDATA[Wallet address are usually stored in hex.
 Here the hex value is represented as a string.
 Giving 60 charaters for the string to be on the safer side.]]></comment>
@@ -70,9 +70,9 @@ Giving 60 charaters for the string to be on the safer side.]]></comment>
 <ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="REGISTRATION_DATE" id="87ED0646-506C-B3F6-6F1B-BE2DED72180B">
+<Column name="REGISTRATION_DATE" id="256B4353-8D27-2529-5FF3-F89CAEEE74B5">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>D3F94B12-6F86-24D9-4C87-015F167B0837</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -81,9 +81,9 @@ Giving 60 charaters for the string to be on the safer side.]]></comment>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="LAST_LOGIN" id="6140827B-F02D-16AB-83BD-BBC875204D1E">
+<Column name="LAST_LOGIN" id="05A1DDC1-C73C-8224-8174-5E9B8926C27D">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>3561FB62-20ED-6B45-7BDD-4BF00C220072</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -92,9 +92,9 @@ Giving 60 charaters for the string to be on the safer side.]]></comment>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PROFILE_PICTURE" id="C62F064B-C0D1-606C-E627-8980834AE44D">
+<Column name="PROFILE_PICTURE" id="AAFA264D-F96B-AECB-83C6-F408605C3EDA">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>3C83B346-E354-9AB0-39C7-0AD3A4166602</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -104,56 +104,34 @@ Giving 60 charaters for the string to be on the safer side.]]></comment>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ROLE" id="E1A77EA3-8DF8-F861-4CC5-90CBCEAA0035">
+<Column name="ROLE" id="4BF61C78-78EA-9903-DEFF-B247F347AF1D">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is an ENUM having value
+	BUYER
+	SELLER
+	BOTH]]></commentInRDBMS>
 <generatorID>E373D997-77E4-3418-769E-231501DBE544</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>577AFFC0-9768-71A9-686E-EB0C182B5DAF</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="USER_TRANSACTION_USER_TRANSACTION_ID" id="2C207EEF-BA28-50E5-992E-5E74DC1D00FE">
-<createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
-<generatorID>FB62CFDC-F247-A467-EDFA-72CF06930478</generatorID>
-<ownerDesignName>NFT</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="8974DA90-3AB0-1F4E-DCDB-C358344A8358" referredColumn="EB416CF2-B2F7-1811-5632-1C1C84EFB6F8"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="63801029-2447-586A-DE36-2E480DBB1EDD" name="USER_PK">
+<ind_PK_UK id="16475BF8-632E-6368-DD3C-557CB52E1D7B" name="USER_PK">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>CC819E7A-13F8-2DB7-EF47-F1F802121AF5</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2A1AEEDD-F876-CA20-FDBA-31B8FFA96539"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="3D53FF69-03DA-DE83-2910-67D367BF8045" name="USER_USER_TRANSACTION_FK">
-<createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
-<generatorID>C17A3229-1F29-224C-A4D1-0F055498B467</generatorID>
-<ownerDesignName>NFT</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="2C207EEF-BA28-50E5-992E-5E74DC1D00FE"/>
+<colUsage columnID="5781EA47-3ED9-475A-CE49-2279820012F1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

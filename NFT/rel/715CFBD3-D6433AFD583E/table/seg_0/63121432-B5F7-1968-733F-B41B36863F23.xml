@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27B8B548-DB76-3613-D75A-9B0D56AC1118" name="BIDDER">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63121432-B5F7-1968-733F-B41B36863F23" name="BIDDER">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>ACB1F544-BD45-8E22-90DD-73D924EE966A</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="BIDDER_ID" id="4D853D86-CE16-FC43-DE1C-4AAC95230B23">
+<Column name="BIDDER_ID" id="431DF49D-DFA3-E781-B8BA-F9A642CB3314">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>F52B8D36-5D6F-5EF9-41BE-31977B4C707E</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="USER_USER_ID" id="3316BE3F-EEE6-0E96-4161-11C12B7D1721">
+<Column name="USER_USER_ID" id="2DB4413A-09D7-E5A4-030B-0F30B279C0B8">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>A566609A-0134-8571-D1E8-2ECCE7433C6F</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,12 +31,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="BE984AE9-E66B-7492-4DE9-5F345A284641" referredColumn="2A1AEEDD-F876-CA20-FDBA-31B8FFA96539"/>
+<colAssociation fkAssociation="2A7F38CF-D8B4-A8B8-B212-B563AF9DB815" referredColumn="5781EA47-3ED9-475A-CE49-2279820012F1"/>
 </associations>
 </Column>
-<Column name="BID_BID_ID" id="7CC7845C-EDB5-5CF5-B884-F635E015358B">
+<Column name="BID_BID_ID" id="E20A7D74-F2D6-D5E1-A111-107725A631C1">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>0FF456E4-5AD8-EADA-5D6A-E7BC91F50540</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,43 +46,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4476C33D-03C4-DE1B-4EA6-901836F0855D" referredColumn="92982393-48D0-35D5-E8F9-638123980DD8"/>
+<colAssociation fkAssociation="72EF8D17-35DA-8C6E-0625-2EFA3EF57796" referredColumn="342D1091-E096-75E0-AF9D-24C2C5E8D5C0"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3FBA4E84-D0D3-1EFF-C6D2-4398B8F8C57F" name="BIDDER_PK">
+<ind_PK_UK id="135BC929-C14C-C6F1-F52F-C1D857798023" name="BIDDER_PK">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>E1ABD748-FEF5-CF95-1F4C-7DAF6DAF1227</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4D853D86-CE16-FC43-DE1C-4AAC95230B23"/>
+<colUsage columnID="431DF49D-DFA3-E781-B8BA-F9A642CB3314"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="004420F2-84F2-D99A-D21A-95C46361D6D7" name="BIDDER_BID_FK">
+<ind_PK_UK id="61E48C53-83F0-AC4B-9BCC-6C7D7D7F22B0" name="BIDDER_BID_FK">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>D71A09AA-E918-520C-9E51-FEE05C375D7D</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7CC7845C-EDB5-5CF5-B884-F635E015358B"/>
+<colUsage columnID="E20A7D74-F2D6-D5E1-A111-107725A631C1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7DE45403-EA62-DE6A-A83F-17946DC9BD22" name="BIDDER_USER_FK">
+<ind_PK_UK id="0A1F2372-A541-5D51-3B75-0AA88D55217D" name="BIDDER_USER_FK">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>8D79C717-FA09-09DC-8031-0DBE293302EF</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3316BE3F-EEE6-0E96-4161-11C12B7D1721"/>
+<colUsage columnID="2DB4413A-09D7-E5A4-030B-0F30B279C0B8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

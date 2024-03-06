@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="NFT_IS_LISTED" directorySegmentName="seg_0" id="816246E3-0494-CE57-12FB-FB107C98E022">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-06 18:58:52 UTC</createdTime>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<sourcePk>A6D8BE15-AE0F-9E2D-A4D7-77A339BD79C3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>894CCF0A-F24A-51EF-77C9-7DAC7DC18903</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>04DEC2D8-73AD-3548-8B74-DE3391E28414</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

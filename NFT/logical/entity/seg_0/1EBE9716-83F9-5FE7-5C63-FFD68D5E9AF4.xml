@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2BE5E66-BF7F-3E25-6DF0-0ABA14560B43" name="USER_TRANSACTION">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1EBE9716-83F9-5FE7-5C63-FFD68D5E9AF4" name="REQUEST">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 20:55:08 UTC</createdTime>
+<createdTime>2024-03-06 20:55:18 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="USER_TRANSACTION_ID" id="CF08F853-7AF5-3AA9-7B53-B396DFC43085">
+<Attribute name="REQUEST_ID" id="BF1BAD83-A2FD-F499-2441-211338628A72">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 20:56:07 UTC</createdTime>
+<createdTime>2024-03-06 20:56:40 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -27,55 +27,53 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="USER_ID" id="BA51B937-C839-391A-119C-D18FE80BF4A5">
+<Attribute name="REQUEST_TIME" id="0DF13B44-B4D7-9B99-E8F5-00E3A06A1D65">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 21:00:41 UTC</createdTime>
+<createdTime>2024-03-06 20:57:06 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TRANSACTION_ID" id="5529CA59-155D-2177-EF8C-206CAAF958A6">
+<Attribute name="REQUEST_STATUS" id="D467E24C-591D-A2DD-5913-18536B046F2F">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 21:01:07 UTC</createdTime>
+<createdTime>2024-03-06 20:57:32 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ROLE" id="0B34D33A-0C2C-4476-C6EE-4F5F174CF169">
-<createdBy>raksh</createdBy>
-<createdTime>2024-03-01 21:01:31 UTC</createdTime>
-<commentInRDBMS><![CDATA[This is to denote if its a buying or a selling transaction.]]></commentInRDBMS>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TRANSCATION_ID" id="8C681C07-8E02-CA8E-5090-AC292F250209">
+<Attribute name="USER_ID" id="30363B7E-5F8A-0590-53BC-B3832758C8C5">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 21:46:19 UTC</createdTime>
-<generatorID>F9FF245D-1A19-0C86-C886-693B6673D791</generatorID>
+<createdTime>2024-03-06 20:58:32 UTC</createdTime>
+<generatorID>5D289467-843E-0DCD-4A49-7DC0667DF367</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<referedAttribute>6BD11A96-EB44-1A3C-6EBC-588040373F81</referedAttribute>
+<referedAttribute>5DAB1E67-7B66-D53E-7F71-F92B254ECC24</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NFT_ID" id="D5079172-6F09-E9BA-0672-29AF073C1492">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-06 20:58:58 UTC</createdTime>
+<generatorID>D1B99871-104A-F390-9C4D-F59F5B702C43</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<referedAttribute>0D47507F-37BC-C570-9FA2-2878169D952C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -83,17 +81,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2AAD12DB-1490-9165-F3CB-DE5E8D73C463" name="USER_TRANSACTION PK">
+<identifier id="5AE0CB85-32D4-3D3C-6C93-611A5FC2CA53" name="REQUEST PK">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 21:46:10 UTC</createdTime>
+<createdTime>2024-03-06 20:56:51 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="false"/>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>CF08F853-7AF5-3AA9-7B53-B396DFC43085</attributeRef>
+<attributeRef>BF1BAD83-A2FD-F499-2441-211338628A72</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

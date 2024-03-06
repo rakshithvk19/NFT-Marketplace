@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03C8B12B-A719-54F0-E077-C11D2F821671" name="NFT">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B2827B9-ED33-1F65-49AD-BF9FDEA6335D" name="NFT">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>894CCF0A-F24A-51EF-77C9-7DAC7DC18903</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="NFT_ID" id="82B9DBA4-F6FC-6FE9-B368-E570C7E6AAA2">
+<Column name="NFT_ID" id="F7F187D9-2E3E-D574-FE19-6B4FF76AE298">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>0D47507F-37BC-C570-9FA2-2878169D952C</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COLLECTION_ID" id="FF405239-3C46-21C7-1ACC-758C3F47F180">
+<Column name="COLLECTION_ID" id="9C00810C-8679-9EAC-016B-556FB7190CA5">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <comment><![CDATA[To know what collection an NFT is a part of]]></comment>
 <generatorID>D28D4B44-6212-8B8A-222F-60B5794CB4F2</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
@@ -32,9 +32,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TITLE" id="6183C5A0-3403-0739-D407-7562B9859134">
+<Column name="TITLE" id="8C2175BF-A750-9120-F75D-C33C1FE07F5B">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <comment><![CDATA[Title given to the NFT]]></comment>
 <generatorID>46A273DB-7CF2-F8CD-BABC-CBE20C21CA18</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
@@ -45,9 +45,9 @@
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DESCRIPTION" id="8C40F6A8-6D03-7846-A827-90C75D5521D2">
+<Column name="DESCRIPTION" id="6A786B4F-ADC6-AF1D-C541-6335FC051563">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <comment><![CDATA[Description of the NFT]]></comment>
 <generatorID>3C1E05B0-F79F-10FA-D626-E3C7D316FDD6</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
@@ -59,9 +59,9 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="MINT_DATE" id="E3B14550-4DBD-B372-8897-A8BB2588C0C1">
+<Column name="MINT_DATE" id="C37023F4-5072-F8EA-0613-2D3BDB60F304">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <comment><![CDATA[The date when the NFT is minted]]></comment>
 <generatorID>61A18B7E-5AE1-0AB1-9A70-FAC4FB3EB22F</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
@@ -71,9 +71,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="FILE_URL" id="6853C2EE-BB22-1265-285F-F4C7371B68CF">
+<Column name="FILE_URL" id="28E32AE7-230F-E281-AB09-5C3312C9F8D3">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>C502C544-EB8A-7E7C-8AC5-F90A91CF2649</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -82,9 +82,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TOKEN_ID" id="E64EEEA9-7749-4870-9887-9FE68CFD0087">
+<Column name="TOKEN_ID" id="6F28F915-CBAD-100D-0835-2CA2999DF3E5">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>19773B69-8D3E-EF88-6149-658F2B23F869</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -94,9 +94,9 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PRICE" id="E4A7BE62-CAF7-A158-B019-A602DC584ACB">
+<Column name="PRICE" id="B5616236-3CD1-BB86-B7A1-F8D8591EF1F2">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <comment><![CDATA[Attribute to denote the price of the NFT in dollars.]]></comment>
 <generatorID>16675EE6-CB09-C733-78A3-A80EADDD2321</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
@@ -108,9 +108,9 @@
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="STATUS" id="1A8F4599-A660-E818-10CF-3F25042ABE4E">
+<Column name="STATUS" id="CCE2FE5C-2F19-68C0-B3D2-3C30C548BD2F">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <comment><![CDATA[This should be an ENUM containing values
 	AVAILABLE
 	SOLD
@@ -131,9 +131,9 @@
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="USER_USER_ID" id="72622F57-E2E7-F610-5FE8-30F117A59B3D">
+<Column name="USER_USER_ID" id="46DE4D52-3337-E938-22F1-1F17EA51226A">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>D3BDD29F-3E5C-03D7-1EC4-24A06A488FF2</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -143,32 +143,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="A9BE29DF-3D15-AEB1-83F5-DC2121E6E0B9" referredColumn="2A1AEEDD-F876-CA20-FDBA-31B8FFA96539"/>
+<colAssociation fkAssociation="941B9808-FB94-5F1D-E14E-3EC12D7FCB6D" referredColumn="5781EA47-3ED9-475A-CE49-2279820012F1"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="73DAFE1F-8285-AFBE-D831-CC6DE5E7BD3E" name="NFT_PK">
+<ind_PK_UK id="0FC99185-6B17-84EE-BBBF-344A6394773B" name="NFT_PK">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>A6D8BE15-AE0F-9E2D-A4D7-77A339BD79C3</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="82B9DBA4-F6FC-6FE9-B368-E570C7E6AAA2"/>
+<colUsage columnID="F7F187D9-2E3E-D574-FE19-6B4FF76AE298"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4D387111-30AE-5DE8-4403-60F0DF4F0C2B" name="NFT_USER_FK">
+<ind_PK_UK id="586C3E44-9B30-A629-E862-48B0927A2482" name="NFT_USER_FK">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 22:05:50 UTC</createdTime>
+<createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>7D279447-FA6F-6974-5ECB-9D55423EF511</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="72622F57-E2E7-F610-5FE8-30F117A59B3D"/>
+<colUsage columnID="46DE4D52-3337-E938-22F1-1F17EA51226A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

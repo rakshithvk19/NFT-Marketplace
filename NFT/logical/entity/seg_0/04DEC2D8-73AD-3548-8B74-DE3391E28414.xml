@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EC0A8F28-DE91-9259-64FB-59BBBE253974" name="BID">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="04DEC2D8-73AD-3548-8B74-DE3391E28414" name="LISTING">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 20:54:48 UTC</createdTime>
+<createdTime>2024-03-06 18:56:47 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="BID_ID" id="6F8F18F8-43A3-1C1E-5D1F-9B0D27E7486B">
+<Attribute name="LISTING_ID" id="7F654934-BC0F-CB5C-DC51-68B6A89DA03A">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 21:05:52 UTC</createdTime>
+<createdTime>2024-03-06 18:58:14 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -27,62 +27,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="BIDDER_ID" id="F8B8097F-12B0-C403-4080-E9A14351DEB0">
+<Attribute name="NFT_ID" id="285170E6-2196-ED24-DA36-FC6B21F771E3">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 21:05:57 UTC</createdTime>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="BID_AMOUNT" id="AB9BC06B-509F-5F85-46F1-28C254142969">
-<createdBy>raksh</createdBy>
-<createdTime>2024-03-01 21:06:11 UTC</createdTime>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT043</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,10,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="BID_DATE" id="D0E21ADE-4075-8988-D40B-645821778FFF">
-<createdBy>raksh</createdBy>
-<createdTime>2024-03-01 21:06:17 UTC</createdTime>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="BID_STATUS" id="409DE53A-689C-44EC-F916-642093D60D3C">
-<createdBy>raksh</createdBy>
-<createdTime>2024-03-01 21:06:23 UTC</createdTime>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NFT_ID" id="BABEB572-E5B0-B209-ACA7-BDA42ECDB720">
-<createdBy>raksh</createdBy>
-<createdTime>2024-03-01 21:10:55 UTC</createdTime>
-<generatorID>B8F088C3-BDFF-52FE-E694-4D0727164EB4</generatorID>
+<createdTime>2024-03-06 18:58:52 UTC</createdTime>
+<generatorID>816246E3-0494-CE57-12FB-FB107C98E022</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
@@ -93,15 +41,65 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LISTING_ID" id="9813CF9C-533D-F9C8-9E9E-0EF7EFA67AFD">
+<Attribute name="LISTING_STATUS" id="8093770B-6A95-C28C-CFE1-978A2E627155">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-06 20:40:41 UTC</createdTime>
-<generatorID>40B0E942-CD3D-8407-CDA0-3E66797E1E22</generatorID>
+<createdTime>2024-03-06 19:19:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[completed
+ongoing
+cancelled]]></commentInRDBMS>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
-<referedAttribute>7F654934-BC0F-CB5C-DC51-68B6A89DA03A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LISTING_START_DATE" id="01197AD4-84B3-6EC4-1310-7025D6789064">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-06 19:36:11 UTC</createdTime>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LISTING_END_DATE" id="6800715D-6D47-72FC-F290-AFD484D76822">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-06 19:36:36 UTC</createdTime>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NO_OF_BIDS" id="CB923211-D8AD-5313-5DB4-F13BE535C361">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-06 19:37:13 UTC</createdTime>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STARTING_BID" id="F5BD1E75-B8F1-63A1-72E6-0C21A4D03960">
+<createdBy>raksh</createdBy>
+<createdTime>2024-03-06 19:40:50 UTC</createdTime>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -109,9 +107,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="5B58418B-5E22-599A-80AF-A8EE68F8B912" name="BID PK">
+<identifier id="AEB2BD09-55DE-5D19-ECB0-295AE831DF73" name="LISTING PK">
 <createdBy>raksh</createdBy>
-<createdTime>2024-03-01 21:10:55 UTC</createdTime>
+<createdTime>2024-03-06 18:58:31 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -119,7 +117,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6F8F18F8-43A3-1C1E-5D1F-9B0D27E7486B</attributeRef>
+<attributeRef>7F654934-BC0F-CB5C-DC51-68B6A89DA03A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

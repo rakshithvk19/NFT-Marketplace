@@ -136,20 +136,6 @@ Giving 60 charaters for the string to be on the safer side.]]></comment>
 <logicalDatatype>577AFFC0-9768-71A9-686E-EB0C182B5DAF</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="USER_TRANSACTION_ID" id="FB62CFDC-F247-A467-EDFA-72CF06930478">
-<createdBy>raksh</createdBy>
-<createdTime>2024-03-01 21:46:11 UTC</createdTime>
-<generatorID>C17A3229-1F29-224C-A4D1-0F055498B467</generatorID>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<referedAttribute>CF08F853-7AF5-3AA9-7B53-B396DFC43085</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="CC819E7A-13F8-2DB7-EF47-F1F802121AF5" name="USER PK">
