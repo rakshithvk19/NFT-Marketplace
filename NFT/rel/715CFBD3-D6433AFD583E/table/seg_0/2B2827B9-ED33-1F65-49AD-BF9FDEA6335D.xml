@@ -19,19 +19,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COLLECTION_ID" id="9C00810C-8679-9EAC-016B-556FB7190CA5">
-<createdBy>raksh</createdBy>
-<createdTime>2024-03-06 21:10:32 UTC</createdTime>
-<comment><![CDATA[To know what collection an NFT is a part of]]></comment>
-<generatorID>D28D4B44-6212-8B8A-222F-60B5794CB4F2</generatorID>
-<ownerDesignName>NFT</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="TITLE" id="8C2175BF-A750-9120-F75D-C33C1FE07F5B">
 <createdBy>raksh</createdBy>
 <createdTime>2024-03-06 21:10:32 UTC</createdTime>

@@ -27,20 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COLLECTION_ID" id="D28D4B44-6212-8B8A-222F-60B5794CB4F2">
-<createdBy>raksh</createdBy>
-<createdTime>2024-02-28 18:12:35 UTC</createdTime>
-<comment><![CDATA[To know what collection an NFT is a part of]]></comment>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="TITLE" id="46A273DB-7CF2-F8CD-BABC-CBE20C21CA18">
 <createdBy>raksh</createdBy>
 <createdTime>2024-02-28 18:05:57 UTC</createdTime>
