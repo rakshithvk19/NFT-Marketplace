@@ -49,7 +49,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="USER_ID" id="30363B7E-5F8A-0590-53BC-B3832758C8C5">
 <createdBy>raksh</createdBy>
@@ -85,8 +86,9 @@
 <createdBy>raksh</createdBy>
 <createdTime>2024-03-06 20:56:51 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

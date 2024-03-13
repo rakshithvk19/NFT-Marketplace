@@ -77,7 +77,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NFT_ID" id="BABEB572-E5B0-B209-ACA7-BDA42ECDB720">
 <createdBy>raksh</createdBy>
