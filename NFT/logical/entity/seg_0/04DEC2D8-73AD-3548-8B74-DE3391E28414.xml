@@ -54,7 +54,8 @@ cancelled]]></commentInRDBMS>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="LISTING_START_DATE" id="01197AD4-84B3-6EC4-1310-7025D6789064">
 <createdBy>raksh</createdBy>
