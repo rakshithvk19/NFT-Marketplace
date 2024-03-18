@@ -70,20 +70,6 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="USER_ID" id="89D75AD3-EA10-32FB-17EA-362B093A6153">
-<createdBy>raksh</createdBy>
-<createdTime>2024-03-01 21:55:36 UTC</createdTime>
-<generatorID>E766C40A-A1AD-7345-E357-52A4D6526FB2</generatorID>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<referedAttribute>5DAB1E67-7B66-D53E-7F71-F92B254ECC24</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="TRANSACTION_HASH" id="35185635-0D76-39A8-E288-628434F9F118">
 <createdBy>raksh</createdBy>
 <createdTime>2024-03-01 22:04:08 UTC</createdTime>
@@ -126,19 +112,33 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="NFT_USER_ID" id="FC34DE7F-B3FE-8A12-73D7-08AD8ECD501F">
+<createdBy>milin</createdBy>
+<createdTime>2024-03-15 17:27:29 UTC</createdTime>
+<generatorID>E766C40A-A1AD-7345-E357-52A4D6526FB2</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<referedAttribute>5DAB1E67-7B66-D53E-7F71-F92B254ECC24</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="7B6B940C-A166-198A-6ADF-4A5CDA39EBDD" name="TRANSACTION PK">
 <createdBy>raksh</createdBy>
 <createdTime>2024-03-01 21:46:17 UTC</createdTime>
 <ownerDesignName>NFT</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="false"/>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>6BD11A96-EB44-1A3C-6EBC-588040373F81</attributeRef>
+<attributeRef>FC34DE7F-B3FE-8A12-73D7-08AD8ECD501F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

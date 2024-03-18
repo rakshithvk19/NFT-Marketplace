@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2A1DB6E-E37B-C3BB-9588-DA5819401F4B" name="USER">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2A1DB6E-E37B-C3BB-9588-DA5819401F4B" name="NFT_USER">
 <createdBy>raksh</createdBy>
 <createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>35166B60-5E46-B678-FA42-EAEC0301CE1D</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="USER_ID" id="5781EA47-3ED9-475A-CE49-2279820012F1">
+<Column name="NFT_USER_ID" id="5781EA47-3ED9-475A-CE49-2279820012F1">
 <createdBy>raksh</createdBy>
 <createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>5DAB1E67-7B66-D53E-7F71-F92B254ECC24</generatorID>
@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="USER_NAME" id="43491D49-E506-2A4B-F823-3484B7C9BCB8">
+<Column name="NFT_USER_NAME" id="43491D49-E506-2A4B-F823-3484B7C9BCB8">
 <createdBy>raksh</createdBy>
 <createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>6F6B33DB-2768-8BDA-AB1C-68B4117D3903</generatorID>
@@ -123,7 +123,7 @@ Giving 60 charaters for the string to be on the safer side.]]></comment>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="16475BF8-632E-6368-DD3C-557CB52E1D7B" name="USER_PK">
+<ind_PK_UK id="16475BF8-632E-6368-DD3C-557CB52E1D7B" name="NFT_USER_PK">
 <createdBy>raksh</createdBy>
 <createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>CC819E7A-13F8-2DB7-EF47-F1F802121AF5</generatorID>

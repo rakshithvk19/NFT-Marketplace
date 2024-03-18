@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="USER_USER_ID" id="2DB4413A-09D7-E5A4-030B-0F30B279C0B8">
+<Column name="NFT_USER_USER_ID" id="2DB4413A-09D7-E5A4-030B-0F30B279C0B8">
 <createdBy>raksh</createdBy>
 <createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>A566609A-0134-8571-D1E8-2ECCE7433C6F</generatorID>
@@ -49,6 +49,18 @@
 <colAssociation fkAssociation="72EF8D17-35DA-8C6E-0625-2EFA3EF57796" referredColumn="342D1091-E096-75E0-AF9D-24C2C5E8D5C0"/>
 </associations>
 </Column>
+<Column name="NFT_USER_ID" id="44D737CE-EEBD-7116-E7BE-DD8FEDC6EF8B">
+<createdBy>milin</createdBy>
+<createdTime>2024-03-15 17:34:29 UTC</createdTime>
+<generatorID>D0EE5308-9F7E-1FAE-AC62-E2C93E7F73C4</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="135BC929-C14C-C6F1-F52F-C1D857798023" name="BIDDER_PK">
@@ -74,7 +86,7 @@
 <colUsage columnID="E20A7D74-F2D6-D5E1-A111-107725A631C1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0A1F2372-A541-5D51-3B75-0AA88D55217D" name="BIDDER_USER_FK">
+<ind_PK_UK id="0A1F2372-A541-5D51-3B75-0AA88D55217D" name="BIDDER_NFT_USER_FK">
 <createdBy>raksh</createdBy>
 <createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>8D79C717-FA09-09DC-8031-0DBE293302EF</generatorID>
