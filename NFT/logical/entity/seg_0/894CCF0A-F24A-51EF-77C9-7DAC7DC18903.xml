@@ -133,9 +133,9 @@
 <dataTypeSize>20 CHAR</dataTypeSize>
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="USER_ID" id="D3BDD29F-3E5C-03D7-1EC4-24A06A488FF2">
-<createdBy>raksh</createdBy>
-<createdTime>2024-03-01 21:01:55 UTC</createdTime>
+<Attribute name="NFT_USER_ID" id="064BCBB7-8C93-6E1E-292C-4134539EBDD9">
+<createdBy>milin</createdBy>
+<createdTime>2024-03-15 17:27:29 UTC</createdTime>
 <generatorID>7D279447-FA6F-6974-5ECB-9D55423EF511</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
 <engineerTo>

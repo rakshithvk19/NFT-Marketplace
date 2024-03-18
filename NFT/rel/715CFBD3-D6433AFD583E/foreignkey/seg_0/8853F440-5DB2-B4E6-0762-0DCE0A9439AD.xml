@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8853F440-5DB2-B4E6-0762-0DCE0A9439AD" containerWithKeyObject="DC01BC7F-3E9A-79A5-D1C1-F6496F432413" localFKIndex="C0DE3BC3-E4F8-50EA-6F29-61360931D500" name="REQUEST_USER_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8853F440-5DB2-B4E6-0762-0DCE0A9439AD" containerWithKeyObject="DC01BC7F-3E9A-79A5-D1C1-F6496F432413" localFKIndex="C0DE3BC3-E4F8-50EA-6F29-61360931D500" name="REQUEST_NFT_USER_FK">
 <createdBy>raksh</createdBy>
 <createdTime>2024-03-06 21:10:32 UTC</createdTime>
 <generatorID>5D289467-843E-0DCD-4A49-7DC0667DF367</generatorID>
 <ownerDesignName>NFT</ownerDesignName>
-<referredTableLongName>USER</referredTableLongName>
+<referredTableLongName>NFT_USER</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>E2A1DB6E-E37B-C3BB-9588-DA5819401F4B</referredTableID>
 <keyObject>16475BF8-632E-6368-DD3C-557CB52E1D7B</keyObject>
 <referredKeyID>16475BF8-632E-6368-DD3C-557CB52E1D7B</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>USER_ID</refColNames>
+<refColNames>NFT_USER_ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

@@ -52,20 +52,6 @@
 <dataTypeSize>64</dataTypeSize>
 <ownDataTypeParameters>64,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="USER_ID" id="30363B7E-5F8A-0590-53BC-B3832758C8C5">
-<createdBy>raksh</createdBy>
-<createdTime>2024-03-06 20:58:32 UTC</createdTime>
-<generatorID>5D289467-843E-0DCD-4A49-7DC0667DF367</generatorID>
-<ownerDesignName>NFT</ownerDesignName>
-<engineerTo>
-<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
-</engineerTo>
-<referedAttribute>5DAB1E67-7B66-D53E-7F71-F92B254ECC24</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="NFT_ID" id="D5079172-6F09-E9BA-0672-29AF073C1492">
 <createdBy>raksh</createdBy>
 <createdTime>2024-03-06 20:58:58 UTC</createdTime>
@@ -75,6 +61,20 @@
 <item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
 </engineerTo>
 <referedAttribute>0D47507F-37BC-C570-9FA2-2878169D952C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NFT_USER_ID" id="C9EA4620-513B-FDCE-ECA8-828127CFE9EE">
+<createdBy>milin</createdBy>
+<createdTime>2024-03-15 17:27:29 UTC</createdTime>
+<generatorID>5D289467-843E-0DCD-4A49-7DC0667DF367</generatorID>
+<ownerDesignName>NFT</ownerDesignName>
+<engineerTo>
+<item key="715CFBD3-70AE-AB15-ED78-D6433AFD583E" value="true"/>
+</engineerTo>
+<referedAttribute>5DAB1E67-7B66-D53E-7F71-F92B254ECC24</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
