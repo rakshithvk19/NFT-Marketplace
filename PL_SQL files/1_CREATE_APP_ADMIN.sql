@@ -1,3 +1,4 @@
+-- Run this script as DBA 
 SET SERVEROUTPUT ON
 
 DECLARE

@@ -1,3 +1,5 @@
+-- Run this script as APP_Admin
+
 SET SERVEROUTPUT ON
 
 DECLARE
