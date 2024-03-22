@@ -262,27 +262,76 @@ ALTER TABLE transaction
     ADD CONSTRAINT transaction_request_fk FOREIGN KEY ( request_request_id )
         REFERENCES request ( request_id );
         
-INSERT INTO nft_user (nft_user_id, nft_user_name, email, password, wallet_address, registration_date, last_login, role)
-VALUES (1, 'John Doe', 'john.doe@example.com', 'password123', '0x1234567890ABCDEF', TIMESTAMP '2022-03-14 12:00:00', TIMESTAMP '2022-03-14 12:00:00', 'BUYER');
 
+-- Inserting into nft user entity.
 INSERT INTO nft_user (nft_user_id, nft_user_name, email, password, wallet_address, registration_date, last_login, role)
-VALUES (2, 'Jane Doe', 'jane.doe@example.com', 'password123', '0x1234567890FEDCBA', TIMESTAMP '2022-03-14 12:00:00', TIMESTAMP '2022-03-14 12:00:00', 'SELLER');
+VALUES
+(1, 'John Doe', 'john.doe@example.com', 'pass123word', '0x0987654321ABCDEF', TIMESTAMP '2022-03-14 12:00:00', TIMESTAMP '2022-03-14 12:00:00', 'BUYER'),
+(2, 'Jane Doe', 'jane.doe@example.com', 'abcXYZ789', '0xABCDEF0987654321', TIMESTAMP '2022-03-14 12:00:00', TIMESTAMP '2022-03-14 12:00:00', 'SELLER'),
+(3, 'LeBron James', 'lebron.james@example.com', 'leb23JAM!', '0xABC123DEF456GHI789', TIMESTAMP '2022-03-14 12:00:00', TIMESTAMP '2022-03-14 12:00:00', 'BUYER'),
+(4, 'Michael Jordan', 'michael.jordan@example.com', 'jorM1k@@', '0xXYZ987ABC123DEF456', TIMESTAMP '2022-03-14 12:00:00', TIMESTAMP '2022-03-14 12:00:00', 'SELLER'),
+(5, 'Kareem Abdul-Jabbar', 'kareem.abduljabbar@example.com', 'KAJ$$456', '0x987GHI654JKL321MNO', TIMESTAMP '2022-03-14 12:00:00', TIMESTAMP '2022-03-14 12:00:00', 'BUYER'),
+(6, 'Magic Johnson', 'magic.johnson@example.com', 'magiC0ol!', '0x654PQR321STU987VWX', TIMESTAMP '2022-03-14 12:00:00', TIMESTAMP '2022-03-14 12:00:00', 'SELLER'),
+(7, 'Larry Bird', 'larry.bird@example.com', 'BirD3Lar!', '0x321XYZ987MNO654PQR', TIMESTAMP '2022-03-14 12:00:00', TIMESTAMP '2022-03-14 12:00:00', 'BUYER'),
+(8, 'Shaquille ONeal', 'shaquille.oneal@example.com', 'shaQ$$$01', '0xGHI789ABCDEF123XYZ', TIMESTAMP '2022-03-14 12:00:00', TIMESTAMP '2022-03-14 12:00:00', 'SELLER'),
+(9, 'Kobe Bryant', 'kobe.bryant@example.com', 'bry@nt24', '0xGHI321JKL987MNO654', TIMESTAMP '2022-03-14 12:00:00', TIMESTAMP '2022-03-14 12:00:00', 'BUYER'),
+(10, 'Tim Duncan', 'tim.duncan@example.com', 'DuNC@N555', '0x456DEF123ABC789GHI', TIMESTAMP '2022-03-14 12:00:00', TIMESTAMP '2022-03-14 12:00:00', 'SELLER'),
+(11, 'Kevin Durant', 'kevin.durant@example.com', 'durantK123', '0x789GHI456DEF123ABC', TIMESTAMP '2022-03-14 12:00:00', TIMESTAMP '2022-03-14 12:00:00', 'BUYER'),
+(12, 'Chris Paul', 'chris.paul@example.com', 'cPauL987', '0xJKL321MNO654PQR987', TIMESTAMP '2022-03-14 12:00:00', TIMESTAMP '2022-03-14 12:00:00', 'SELLER');
 
+
+-- Inserting into nft entity.
 INSERT INTO nft (nft_id, title, description, mint_date, file_url, token_id, price, status, nft_user_user_id, nft_user_id)
-VALUES (1, 'Sample NFT', 'Description of Sample NFT', TIMESTAMP '2022-03-14 12:00:00', 'http://example.com/sample_nft.jpg', 'token123', 200.00, 'AVAILABLE', 1, 1);
+VALUES 
+(1, 'Glimpse of Galaxy', 'Experience the beauty of distant galaxies with this mesmerizing digital art piece.', TIMESTAMP '2022-03-14 12:00:00', 'http://example.com/galaxy_nft.jpg', 'token667748', 300.00, 'AVAILABLE', 7, 7),
+(2, 'Mystical Mountains', 'Journey through misty peaks and hidden valleys with this enchanting landscape photograph.', TIMESTAMP '2022-03-14 12:00:00', 'http://example.com/mountain_nft.jpg', 'token667749', 280.00, 'AVAILABLE', 8, 8),
+(3, 'Dreamy Dolphins', 'Dive into the depths of the ocean and swim alongside playful dolphins with this captivating underwater photograph.', TIMESTAMP '2022-03-14 12:00:00', 'http://example.com/dolphin_nft.jpg', 'token667750', 320.00, 'AVAILABLE', 5, 5),
+(4, 'Celestial Serenity', 'Find peace and tranquility amidst the stars with this serene celestial artwork.', TIMESTAMP '2022-03-14 12:00:00', 'http://example.com/celestial_nft.jpg', 'token667751', 340.00, 'AVAILABLE', 9, 9),
+(5, 'Whimsical Woodlands', 'Explore the magical wonders of the forest with this whimsical woodland illustration.', TIMESTAMP '2022-03-14 12:00:00', 'http://example.com/woodland_nft.jpg', 'token667752', 260.00, 'AVAILABLE', 10, 10),
+(6, 'Surreal Seascape', 'Dive into a surreal world where the sea meets the sky in harmony with this mesmerizing seascape.', TIMESTAMP '2022-03-14 12:00:00', 'http://example.com/seascape_nft.jpg', 'token667753', 290.00, 'AVAILABLE', 6, 6),
+(7, 'Whispering Waterfalls', 'Listen to the soothing whispers of cascading waterfalls with this tranquil landscape photograph.', TIMESTAMP '2022-03-14 12:00:00', 'http://example.com/waterfall_nft.jpg', 'token667754', 270.00, 'AVAILABLE', 11, 11),
+(8, 'Aurora Dreams', 'Be mesmerized by the dancing lights of the aurora borealis with this breathtaking celestial photograph.', TIMESTAMP '2022-03-14 12:00:00', 'http://example.com/aurora_nft.jpg', 'token667755', 310.00, 'AVAILABLE', 12, 12),
+(9, 'Enchanted Forest', 'Step into an enchanted realm where magic and nature intertwine with this enchanting forest artwork.', TIMESTAMP '2022-03-14 12:00:00', 'http://example.com/enchanted_forest_nft.jpg', 'token667756', 330.00, 'AVAILABLE', 4, 4),
+(10, 'Serenading Songbirds', 'Listen to the sweet melodies of songbirds as they fill the air with music in this serene wildlife photograph.', TIMESTAMP '2022-03-14 12:00:00', 'http://example.com/songbirds_nft.jpg', 'token667757', 300.00, 'AVAILABLE', 3, 3);
 
+-- Inserting into listing entity.
 INSERT INTO listing (listing_id, nft_nft_id, listing_status, listing_start_date, listing_end_date, no_of_bids, starting_bid)
-VALUES (1, 1, 'ongoing', DATE '2022-03-14', DATE '2022-03-21', 1, 100);
+VALUES 
+(1, 1, 'ongoing', TIMESTAMP '2022-03-14 12:00:00', TIMESTAMP '2022-03-21 12:00:00', 1, 100),
+(2, 2, 'closed', TIMESTAMP '2022-03-14 12:00:00', TIMESTAMP '2022-03-20 12:00:00', 3, 150),
+(3, 3, 'ongoing', TIMESTAMP '2022-03-14 12:00:00', TIMESTAMP '2022-03-22 12:00:00', 2, 120),
+(4, 4, 'ongoing', TIMESTAMP '2022-03-14 12:00:00', TIMESTAMP '2022-03-23 12:00:00', 0, 200),
+(5, 5, 'ongoing', TIMESTAMP '2022-03-14 12:00:00', TIMESTAMP '2022-03-24 12:00:00', 4, 180),
 
-INSERT INTO request (request_id, request_time, request_status, nft_user_user_id, nft_nft_id, nft_user_id)
-VALUES (1, DATE '2022-03-14', 'pending', 1, 1, 1);
-
+-- Inserting into bid entity.
 INSERT INTO bid (bid_id, bidder_id, bid_amount, bid_date, bid_status, nft_nft_id, listing_listing_id)
-VALUES (1, 1, 100.00, TIMESTAMP '2022-03-14 12:00:00', 'Open', 1, 1);
+VALUES 
+(2, 2, 120.00, TIMESTAMP '2022-03-15 12:00:00', 'Open', 3, 3),
+(3, 3, 180.00, TIMESTAMP '2022-03-16 12:00:00', 'Open', 5, 5),
+(4, 4, 220.00, TIMESTAMP '2022-03-17 12:00:00', 'Open', 4, 4),
+(5, 5, 250.00, TIMESTAMP '2022-03-18 12:00:00', 'Open', 2, 2),
+(6, 6, 190.00, TIMESTAMP '2022-03-19 12:00:00', 'Open', 1, 1);
 
+-- Inserting into bidder entity.
 INSERT INTO bidder (bidder_id, nft_user_user_id, bid_bid_id, nft_user_id)
-VALUES (1, 1, 1, 1);
+VALUES 
+(2, 2, 2, 2),
+(3, 3, 3, 3),
+(4, 4, 4, 4),
+(5, 5, 5, 5),
+(6, 6, 6, 6);
 
+
+-- Inserting into request entity.
+INSERT INTO request (request_id, request_time, request_status, nft_user_user_id, nft_nft_id, nft_user_id)
+VALUES (2, DATE '2022-03-14', 'pending', 2, 2, 2),
+       (3, DATE '2022-03-14', 'pending', 3, 3, 3),
+       (4, DATE '2022-03-14', 'pending', 4, 4, 4),
+       (5, DATE '2022-03-14', 'pending', 5, 5, 5),
+       (6, DATE '2022-03-14', 'pending', 6, 6, 6);
+
+
+-- Inserting into transaction entity.
 INSERT INTO transaction (transcation_id, transaction_date, transaction_price, status, nft_user_user_id, transaction_hash, listing_listing_id, request_request_id, nft_user_id)
 VALUES (1, TIMESTAMP '2022-03-14 12:00:00', 200.00, 'completed', 1, 'hash123', 1, 1, 1);
   
